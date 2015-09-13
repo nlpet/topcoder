@@ -44,9 +44,10 @@ class QuickSums(object):
         j = 1
         string = ''.join([c for c in string if c != '0'])
         length = len(string)
-        for j in range(1, length):
-            for i in range(0, length, j):
-                print string[i:i + j]
+        for p in range(0, length):
+            pass # TODO
+
+
 
 
 if __name__ == '__main__':
